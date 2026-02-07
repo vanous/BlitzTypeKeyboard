@@ -42,15 +42,15 @@
     </Row>
     
     <Row>
-        <Key android:codes="9999" android:keyWidth="7%p"  android:keyLabel="left" android:horizontalGap="25%p"/>
-        <Key android:codes="9998" android:keyWidth="7%p " android:keyLabel="right"/>
-        <Key android:codes="9997" android:keyWidth="6%p " android:keyLabel="pls"/>
-        <Key android:codes="9996" android:keyWidth="6%p " android:keyLabel="all"/>
-        <Key android:codes="9994" android:keyWidth="7%p " android:keyLabel="spot"/>
-        <Key android:codes="9993" android:keyWidth="9%p " android:keyLabel="flank"/>
-        <Key android:codes="9992" android:keyWidth="6%p " android:keyLabel="me"/>
-        <Key android:codes="9990" android:keyWidth="7%p " android:keyLabel="get"/>
-        <Key android:codes="9982" android:keyWidth="7%p " android:keyLabel="fast"/>
+        <Key android:codes="9999" android:keyWidth="7%p"  android:keyLabel="left" android:keyOutputText="left " android:horizontalGap="25%p"/>
+        <Key android:codes="9998" android:keyWidth="7%p " android:keyLabel="right" android:keyOutputText="right "/>
+        <Key android:codes="9997" android:keyWidth="6%p " android:keyLabel="pls" android:keyOutputText="pls "/>
+        <Key android:codes="9996" android:keyWidth="6%p " android:keyLabel="all" android:keyOutputText="all "/>
+        <Key android:codes="9994" android:keyWidth="7%p " android:keyLabel="spot" android:keyOutputText="spot "/>
+        <Key android:codes="9993" android:keyWidth="9%p " android:keyLabel="flank" android:keyOutputText="flank "/>
+        <Key android:codes="9992" android:keyWidth="6%p " android:keyLabel="me" android:keyOutputText="me "/>
+        <Key android:codes="9990" android:keyWidth="7%p " android:keyLabel="get" android:keyOutputText="get "/>
+        <Key android:codes="9982" android:keyWidth="7%p " android:keyLabel="fast" android:keyOutputText="fast "/>
 
         <Key android:codes="10" android:keyIcon="@drawable/sym_keyboard_return"
                 android:keyWidth="17%p" android:keyEdgeFlags="right"
@@ -58,16 +58,16 @@
     </Row>
     
     <Row>
-        <Key android:codes="9988" android:keyWidth="6%p " android:keyLabel="cover" android:horizontalGap="30%p"/>
-        <Key android:codes="9987" android:keyWidth="7%p " android:keyLabel="back"/>
-        <Key android:codes="9986" android:keyWidth="7%p " android:keyLabel="pull"/>
-        <Key android:codes="9985" android:keyWidth="7%p " android:keyLabel="push"/>
-        <Key android:codes="9984" android:keyWidth="9%p " android:keyLabel="coming"/>
-        <Key android:codes="9976" android:keyWidth="5%p " android:keyLabel="up"/>
-        <Key android:codes="9983" android:keyWidth="8%p " android:keyLabel="watch"/>
+        <Key android:codes="9988" android:keyWidth="6%p " android:keyLabel="cover" android:keyOutputText="cover " android:horizontalGap="30%p"/>
+        <Key android:codes="9987" android:keyWidth="7%p " android:keyLabel="back" android:keyOutputText="back "/>
+        <Key android:codes="9986" android:keyWidth="7%p " android:keyLabel="pull" android:keyOutputText="pull "/>
+        <Key android:codes="9985" android:keyWidth="7%p " android:keyLabel="push" android:keyOutputText="push "/>
+        <Key android:codes="9984" android:keyWidth="9%p " android:keyLabel="coming" android:keyOutputText="coming "/>
+        <Key android:codes="9976" android:keyWidth="5%p " android:keyLabel="up" android:keyOutputText="up "/>
+        <Key android:codes="9983" android:keyWidth="8%p " android:keyLabel="watch" android:keyOutputText="watch "/>
 		<Key android:codes="174" android:keyIcon="@drawable/wot_logo"/>
-		<Key android:codes="9981" android:keyLabel="&lt;&lt;"/>
-		<Key android:codes="9980" android:keyLabel="&gt;&gt;"/>
+		<Key android:codes="9981" android:keyLabel="&lt;&lt;" android:keyOutputText="&lt;&lt;"/>
+		<Key android:codes="9980" android:keyLabel="&gt;&gt;" android:keyOutputText="&gt;&gt;"/>
     </Row>
     
     <Row  android:rowEdgeFlags="bottom">
@@ -77,9 +77,9 @@
         <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
                 android:keyWidth="20%p" android:isRepeatable="true" android:horizontalGap="30%p"/>
         <Key android:codes="-101" android:keyWidth="0.1%p" android:horizontalGap="1%p"/>
-        <Key android:codes="9991" android:keyWidth="8%p " android:keyLabel="meds"/>
-        <Key android:codes="9995" android:keyWidth="12%p " android:keyLabel="heavies"/>
-		<Key android:codes="9989" android:keyWidth="8%p " android:keyLabel="tds"/>
+        <Key android:codes="9991" android:keyWidth="8%p " android:keyLabel="meds" android:keyOutputText="meds "/>
+        <Key android:codes="9995" android:keyWidth="12%p " android:keyLabel="heavies" android:keyOutputText="heavies "/>
+		<Key android:codes="9989" android:keyWidth="8%p " android:keyLabel="tds" android:keyOutputText="tds "/>
         <Key android:codes="33" android:keyLabel="!"/>
         <Key android:codes="63" android:keyLabel="\?"/>
         <Key android:codes="-2" android:keyIcon="@drawable/bt_logo" />

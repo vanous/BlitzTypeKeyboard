@@ -39,7 +39,11 @@ public class LatinKeyboardView extends KeyboardView {
 
     @Override
     protected boolean onLongPress(Key key) {
-        if (key.codes[0] == Keyboard.KEYCODE_CANCEL) {
+        if (key.codes[0] == 32) {
+            // Long-press space to switch to the next input method.
+            getOnKeyboardActionListener().onKey(KEYCODE_LANGUAGE_SWITCH, null);
+            return true;
+        } else if (key.codes[0] == Keyboard.KEYCODE_CANCEL) {
             getOnKeyboardActionListener().onKey(KEYCODE_OPTIONS, null);
             return true;
         } else {
@@ -48,8 +52,6 @@ public class LatinKeyboardView extends KeyboardView {
     }
 
     void setSubtypeOnSpaceKey(final InputMethodSubtype subtype) {
-        final LatinKeyboard keyboard = (LatinKeyboard)getKeyboard();
-        keyboard.setSpaceIcon(getResources().getDrawable(subtype.getIconResId()));
-        invalidateAllKeys();
+        // Intentionally no-op: avoid showing the subtype (e.g., flag) icon on space.
     }
 }

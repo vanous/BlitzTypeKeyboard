@@ -545,7 +545,7 @@ public class SoftKeyboard extends InputMethodService
         if (mComposing.length() > 0) {
             commitTyped(ic);
         }
-        ic.commitText(text, 0);
+        ic.commitText(text, 1);
         ic.endBatchEdit();
         updateShiftKeyState(getCurrentInputEditorInfo());
     }

@@ -65,8 +65,8 @@
         <Key android:codes="110" android:keyLabel="n"/>
         <Key android:codes="109" android:keyLabel="m"/>
 		<Key android:codes="174" android:keyIcon="@drawable/wot_logo"/>
-		<Key android:codes="9981" android:keyLabel="&lt;&lt;"/>
-		<Key android:codes="9980" android:keyLabel="&gt;&gt;"/>
+		<Key android:codes="9981" android:keyLabel="&lt;&lt;" android:keyOutputText="&lt;&lt;"/>
+		<Key android:codes="9980" android:keyLabel="&gt;&gt;" android:keyOutputText="&gt;&gt;"/>
     </Row>
     
     <Row android:rowEdgeFlags="bottom">
@@ -77,10 +77,10 @@
         <Key android:codes="32" android:keyIcon="@drawable/sym_keyboard_space" 
                 android:keyWidth="20%p" android:isRepeatable="true" android:horizontalGap="30%p"/>
         <Key android:codes="-101" android:keyWidth="0.1%p" android:horizontalGap="1%p"/>
-		<Key android:codes="9977" android:keyLabel="omg"/>
-		<Key android:codes="9979" android:keyLabel="gg"/>
-		<Key android:codes="9978" android:keyLabel="lol"/>
-		<Key android:codes="9975" android:keyLabel="sos"/>
+		<Key android:codes="9977" android:keyLabel="omg" android:keyOutputText="omg "/>
+		<Key android:codes="9979" android:keyLabel="gg" android:keyOutputText="gg "/>
+		<Key android:codes="9978" android:keyLabel="lol" android:keyOutputText="lol "/>
+		<Key android:codes="9975" android:keyLabel="sos" android:keyOutputText="sos "/>
         <Key android:codes="33" android:keyLabel="!"/>
         <Key android:codes="63" android:keyLabel="\?"/>
         <Key android:codes="-2" android:keyIcon="@drawable/bt_logo" />
